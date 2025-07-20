@@ -1,0 +1,11 @@
+[versions]
+agp = "8.11.1"
+preference = "1.2.1"
+activity = "1.10.1"
+
+[libraries]
+androidx-preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
